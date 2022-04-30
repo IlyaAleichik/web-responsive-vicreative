@@ -140,6 +140,10 @@ input {
   overflow: hidden;
 }
 
+.section__title-center {
+  text-align: center;
+}
+
 /*=============== HEADER ===============*/
 .header {
   width: 100%;
@@ -243,6 +247,15 @@ input {
 
 /* Change background header */
 
+.scroll-header {
+  background-color: var(--body-color);
+}
+
+.scroll-header .nav__logo,
+.scroll-header .nav__toggle {
+  color: black;
+}
+
 /* Active link */
 
 /*=============== HOME ===============*/
@@ -294,7 +307,80 @@ input {
   width: max-content;
 }
 
+/*=============== PORTFOLIO ===============*/
+
+
+
+.steps__title {
+  padding-top: var(--mb-2-5);
+  padding-bottom: var(--mb-2);
+}
+
+.steps__container {
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.line {
+  width: 35%;
+  margin: auto;
+}
+
+.steps__card {
+  text-align: center;
+  background-color: hsl(0, 0%, 26%);
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.steps__card-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.steps__card-description {
+  font-size: var(--small-font-size);
+  padding-bottom: 1rem;
+}
+
+.steps_line {
+  margin: auto;
+  width: 15%;
+}
+
+
+.steps__card .steps__card-title,
+.steps__card,
+.steps__card-description {
+  color: #FFF;
+}
+
+/*=============== CONTACT ===============*/
+
+.contact__container {
+  text-align: center;
+  padding: 3rem 0 2rem 0;
+}
+
+.contact__subtitle {
+  text-transform: uppercase;
+  color: var(--text-color-gray);
+}
+
+
+
+
 /*=============== BUTTONS ===============*/
+
+
+.button {
+  background-color: transparent;
+  color: black;
+  padding: 1rem;
+  border: .3rem solid var(--text-color-gray);
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: .3s;
+}
 
 /*=============== ABOUT ===============*/
 
@@ -304,7 +390,7 @@ input {
 
 /*=============== QUESTIONS ===============*/
 
-/*=============== CONTACT ===============*/
+
 
 /*=============== FOOTER ===============*/
 
