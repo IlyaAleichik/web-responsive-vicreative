@@ -52,9 +52,9 @@
 }
 
 /* Responsive typography */
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 1290px) {
   :root {
-    --big-font-size: 3.5rem;
+    --big-font-size: 3.7rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
@@ -127,7 +127,7 @@ input {
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 .container {
-  max-width: 968px;
+  max-width: 1290px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -303,7 +303,7 @@ input {
 }
 
 .home__social-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   width: max-content;
 }
 
@@ -510,6 +510,13 @@ input {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .home__container {
+    padding-bottom: 10rem;
+  }
+
+
+  .home__data {}
 
   .home__img {
     position: absolute;
