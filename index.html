@@ -21,7 +21,7 @@
 <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
-        <nav class="nav container">
+        <nav class="nav container" id="nav">
             <div class="nav__toggle" id="nav-toggle">
                 <i class="ri-menu-line"></i>
             </div>
@@ -37,9 +37,9 @@
                     <li class="nav__item">
                         <a href="#subscribe" class="nav__link">Запись</a>
                     </li>
-                    <li class="nav__item">
+                    <!-- <li class="nav__item">
                         <a href="#price" class="nav__link">Цены</a>
-                    </li>
+                    </li> -->
                 </ul>
                 <div class="nav__close" id="nav-close">
                     <i class="ri-close-line"></i>
@@ -84,59 +84,64 @@
 
         <!--==================== PORTFOLIO ====================-->
         <section class="steps section container" id="portfolio">
-            <h2 class="section__title-center steps__title">
-                Последние работы
-            </h2>
-            <h3 class="section__title-center contact__subtitle">«Что мне нравится в фотографии, так это то, что в ней
-                пойман момент, который ушел навсегда, который невозможно воспроизвести». - Карл Лагерфельд.</h3>
-            <hr class="line">
-            <div class="     grid">
-                <div class="steps__card">
-                    <img src="assets/img/portfolio1.png" alt="">
-                    <div class="steps__card-data">
-                        <h3 class="steps__card-title">Природа</h3>
-                        <p class="steps__card-description">
-                            Описание фотографий о природе
-                        </p>
-                        <hr class="steps_line">
-                    </div>
-                </div>
 
-                <div class="steps__card">
-                    <img src="assets/img/portfolio2.png" alt="">
-                    <div class="steps__card-data">
-                        <h3 class="steps__card-title">Природа</h3>
-                        <p class="steps__card-description">
-                            Описание фотографий о природе
-                        </p>
-                        <hr class="steps_line">
+            <div class="steps__content">
+                <h2 class="section__title-center steps__title">
+                    Последние работы
+                </h2>
+                <h3 class="section__title-center steps__subtitle">«Что мне нравится в фотографии, так это то, что в
+                    ней
+                    пойман момент, который ушел навсегда, который невозможно воспроизвести». - Карл Лагерфельд.</h3>
+                <hr class="line">
+                <div class="steps__cards steps__container grid">
+                    <div class="steps__card">
+                        <img src="assets/img/portfolio1.png" alt="">
+                        <div class="steps__card-data">
+                            <h3 class="steps__card-title">Природа</h3>
+                            <p class="steps__card-description">
+                                Описание фотографий о природе
+                            </p>
+                            <hr class="steps_line">
+                        </div>
                     </div>
-                </div>
 
-                <div class="steps__card">
-                    <img src="assets/img/portfolio3.png" alt="">
-                    <div class="steps__card-data">
-                        <h3 class="steps__card-title">Природа</h3>
-                        <p class="steps__card-description">
-                            Описание фотографий о природе
-                        </p>
-                        <hr class="steps_line">
+                    <div class="steps__card">
+                        <img src="assets/img/portfolio2.png" alt="">
+                        <div class="steps__card-data">
+                            <h3 class="steps__card-title">Природа</h3>
+                            <p class="steps__card-description">
+                                Описание фотографий о природе
+                            </p>
+                            <hr class="steps_line">
+                        </div>
+                    </div>
+
+                    <div class="steps__card">
+                        <img src="assets/img/portfolio3.png" alt="">
+                        <div class="steps__card-data">
+                            <h3 class="steps__card-title">Природа</h3>
+                            <p class="steps__card-description">
+                                Описание фотографий о природе
+                            </p>
+                            <hr class="steps_line">
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
         <!--==================== SUBSCRIBE ====================-->
-        <section class="contact section container" id="subscribe">
+        <section class="contact section" id="subscribe">
             <div class="contact__container grid">
                 <div class="contact__box">
                     <h2 class="contact__title">
                         Запишитесь
                     </h2>
-                    <h3 class="contact__subtitle">Перейти к диалогу</h3>
-                    <hr class="contact__line">
+                    <h3 class="contact__subtitle">Задайте все интересующие вас вопросы</h3>
+                    <hr class="line">
                     <button class="button button--flex" onclick="window.location.href='https://t.me/Valeri_Wi';">
-                        Записаться
+                        Перейти к диалогу
                         <i class="button__icon"></i>
                     </button>
                 </div>
